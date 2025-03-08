@@ -24,4 +24,11 @@ numeros.sort(function(a,b) { //numeros sort() --> metodo para odenar el arreglo 
     return a-b; //Aquí se determina como se ordenan los elementos (b-a de mayor a menor)
 });
 
-console.log(numeros); //imprimiendo el resultado
+console.log(numeros); //imprimiendo el resultado de mayor a menor
+
+// Ordenando los números de mayor a menor
+numeros.sort(function(a, b) {
+    return b - a; // orden de los elementos (b-a de mayor a menor)
+});
+
+console.log(numeros); // Imprimiendo el resultado de menor a mayor
